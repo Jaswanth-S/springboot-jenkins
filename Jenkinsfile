@@ -8,12 +8,12 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('Test') {
-            when { branch 'master' }
-            steps {
-                sh 'mvn test'
-                sh 'echo "This is test of MuzixApp"'
-            }
-        }
+      //  stage('Test') {
+        //    when { branch 'master' }
+         //   steps {
+          //      sh 'mvn test'
+           //     sh 'echo "This is test of MuzixApp"'
+           // }
+      //  }
     }
 }
